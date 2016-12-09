@@ -1,0 +1,11 @@
+package home.swetha.main;
+ 
+public class p1class1{
+
+ public static void main()
+  {
+    p1class2  obj1 = new p1class2();
+
+    obj1.simpleprint();
+  }
+}

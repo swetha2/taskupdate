@@ -1,0 +1,33 @@
+public class employee{
+ 
+ public static void main(String args[])
+  {
+    int enumber;
+    String ename;
+    date d;
+   /* date d1 = new date();
+    date d2 = new date();
+    date d3 = new date();
+    date d4 = new date();
+    date d5 = new date();*/
+    
+    Scanner in = new Scanner(System.in);
+    System.out.println("enter the joining date");
+    int d = in.nextInt();
+    int m = in.nextInt();
+    int y = in.nextInt();
+    
+
+    Employee e1 = new Employee(101,aaa,d);
+    e1.date(d,m,y);
+    /*Employee e2 = new Employee(102,bbb,d2);
+    Employee e3 = new Employee(103,ccc,d3);
+    Employee e4 = new Employee(104,ddd,d4);
+    Employee e5 = new Employee(105,eee,d5);*/
+
+    void display()
+     {
+        System.out.println("The Employee number="+enumber+"The Enployee name ="+ename+"The date of joining is ="+d );
+      }
+   }
+}   

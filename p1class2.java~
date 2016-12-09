@@ -1,0 +1,8 @@
+package home.swetha.main.method;
+
+public class p1class2 extends p1class1 {
+ public static void simpleprint()
+  {
+     System.out.println("this is another class\n");
+  }
+}
